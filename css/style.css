@@ -1,0 +1,41 @@
+.box {
+    background-color: #0799d3;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: 0;
+    margin-right: 50px;
+    position: relative;
+    animation: jump .5s alternate infinite ease-in-out;
+    display: inline-block;
+  }
+  
+  @keyframes jump {
+    from {
+      top: 0;
+    }
+    to {
+      top: 100px;
+    }
+  }
+  .box2 {
+    background-color: #FF744E;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: 0;
+    margin: 10;
+    position: relative;
+    animation: jump .5s alternate-reverse infinite ease-in-out;
+    display: inline-block;
+  }
+  
+  @keyframes jump {
+    from {
+      top: 0;
+    }
+    to {
+      top: 100px;
+    }
+  }
+  
